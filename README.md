@@ -28,7 +28,7 @@ When creating a new field the extra options for `EntryType` will appear when sel
 ## Entries Subset Roadmap
 
 * Tidy all the things
-* Show hide entry types based on sections selection
+* Show / hide entry types based on sections selected
 * Make it more obvious what the criteria is when selecting entries in the ElementSelectorModal
 
 ## Entries Subset Changelog
