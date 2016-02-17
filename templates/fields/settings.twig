@@ -1,0 +1,25 @@
+{#
+/**
+ * Entries Subset plugin for Craft CMS
+ *
+ * EntriesSubsetFieldType HTML
+ *
+ * @author    nfourtythree
+ * @copyright Copyright (c) 2016 nfourtythree
+ * @link      http://n43.me
+ * @package   EntriesSubset
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.checkboxSelectField({
+	label: "Entry Types"|t,
+	instructions: "Which entryTypes do you want to select {type} from?"|t({ type: type|lower }),
+	id: 'entryTypes',
+	name: 'entryTypes',
+	options: entryTypes,
+	values: settings.entryTypes
+})}}
+
