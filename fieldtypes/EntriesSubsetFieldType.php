@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2016 nfourtythree
  * @link      http://n43.me
  * @package   EntriesSubset
- * @since     1.0.0
+ * @since     0.5.0
  */
 
 namespace Craft;
@@ -70,10 +70,12 @@ class EntriesSubsetFieldType extends BaseElementFieldType
 
         $entryTypes = $this->getSettings()->entryTypes;
 
-        foreach($this->getSettings()->entryTypes as $typeId) {
-            if ($typeId != "*") {
-                $entryType = craft()->sections->getEntryTypeById($typeId);
-                $variables['criteria']['type'][] = $entryType->handle;
+        if ($entryTypes and is_array($entryTypes)) {
+            foreach($entryTypes as $typeId) {
+                if ($typeId != "*") {
+                    $entryType = craft()->sections->getEntryTypeById($typeId);
+                    $variables['criteria']['type'][] = $entryType->handle;
+                }
             }
         }
 

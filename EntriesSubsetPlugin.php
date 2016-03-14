@@ -18,7 +18,7 @@
  * @copyright Copyright (c) 2016 nfourtythree
  * @link      http://n43.me
  * @package   EntriesSubset
- * @since     1.0.0
+ * @since     0.5.0
  */
 
 namespace Craft;
@@ -93,7 +93,7 @@ class EntriesSubsetPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '0.5.0';
+        return '0.5.1';
     }
 
     /**

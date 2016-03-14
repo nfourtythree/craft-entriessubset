@@ -33,6 +33,10 @@ When creating a new field the extra options for `EntryType` will appear when sel
 
 ## Entries Subset Changelog
 
+### 0.5.1 -- 2016.03.14
+
+* Initial release
+
 ### 0.5.0 -- 2016.02.17
 
 * Initial release
