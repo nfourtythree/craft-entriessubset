@@ -52,8 +52,9 @@ class EntriesSubsetFieldType extends BaseElementFieldType
     public function getEntryTypeOptions()
     {
         $sectionIds = craft()->sections->getAllSectionIds();
+        $entryTypes = array();
         foreach ($sectionIds as $id) {
-            $entryTypes = craft()->sections->getEntryTypesBySectionId($id);
+            $entryTypes = array_merge($entryTypes, craft()->sections->getEntryTypesBySectionId($id));
         }
 
         $entryTypeOptions = array(array('label' => Craft::t('All Entry Types'), 'value' => '*'));

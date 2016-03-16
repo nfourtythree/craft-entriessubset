@@ -1,10 +1,18 @@
 [
     {
+        "version": "0.5.2",
+        "downloadUrl": "https://github.com/nfourtythree/entriessubset/archive/master.zip",
+        "date": "2016-03-16T13:34:00.111Z",
+        "notes": [
+            "[Fixed] Not returning every possible entry type"
+        ]
+    },
+    {
         "version": "0.5.1",
         "downloadUrl": "https://github.com/nfourtythree/entriessubset/archive/master.zip",
         "date": "2016-03-14T12:00:00.111Z",
         "notes": [
-            "[Added] Initial release"
+            "[fixed] Issue with error when no types are selected"
         ]
     },
     {

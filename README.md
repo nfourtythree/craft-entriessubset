@@ -33,9 +33,13 @@ When creating a new field the extra options for `EntryType` will appear when sel
 
 ## Entries Subset Changelog
 
+### 0.5.2 -- 2016.03.16
+
+* Issue with not returning every entry type
+
 ### 0.5.1 -- 2016.03.14
 
-* Initial release
+* Issue with error when no types are selected
 
 ### 0.5.0 -- 2016.02.17
 
