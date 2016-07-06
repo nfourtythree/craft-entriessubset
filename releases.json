@@ -1,7 +1,15 @@
 [
     {
+        "version": "0.5.3",
+        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/0.5.3.zip",
+        "date": "2016-07-06T10:17:00.111Z",
+        "notes": [
+            "[Fixed] GitHub links"
+        ]
+    },
+    {
         "version": "0.5.2",
-        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/master.zip",
+        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/0.5.2.zip",
         "date": "2016-03-16T13:34:00.111Z",
         "notes": [
             "[Fixed] Not returning every possible entry type"
