@@ -71,7 +71,7 @@ class EntriesSubsetPlugin extends BasePlugin
      */
     public function getDocumentationUrl()
     {
-        return 'https://github.com/nfourtythree/entriessubset/blob/master/README.md';
+        return 'https://github.com/nfourtythree/craft-entriessubset/blob/master/README.md';
     }
 
     /**
@@ -83,7 +83,7 @@ class EntriesSubsetPlugin extends BasePlugin
      */
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/nfourtythree/entriessubset/master/releases.json';
+        return 'https://raw.githubusercontent.com/nfourtythree/craft-entriessubset/master/releases.json';
     }
 
     /**

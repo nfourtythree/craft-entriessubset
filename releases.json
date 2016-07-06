@@ -1,7 +1,7 @@
 [
     {
         "version": "0.5.2",
-        "downloadUrl": "https://github.com/nfourtythree/entriessubset/archive/master.zip",
+        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/master.zip",
         "date": "2016-03-16T13:34:00.111Z",
         "notes": [
             "[Fixed] Not returning every possible entry type"
@@ -9,7 +9,7 @@
     },
     {
         "version": "0.5.1",
-        "downloadUrl": "https://github.com/nfourtythree/entriessubset/archive/master.zip",
+        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/master.zip",
         "date": "2016-03-14T12:00:00.111Z",
         "notes": [
             "[fixed] Issue with error when no types are selected"
@@ -17,7 +17,7 @@
     },
     {
         "version": "0.5.0",
-        "downloadUrl": "https://github.com/nfourtythree/entriessubset/archive/master.zip",
+        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/master.zip",
         "date": "2016-02-17T18:39:38.111Z",
         "notes": [
             "[Added] Initial release"
