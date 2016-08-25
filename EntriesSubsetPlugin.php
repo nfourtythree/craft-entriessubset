@@ -93,7 +93,7 @@ class EntriesSubsetPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '0.5.3';
+        return '0.5.4';
     }
 
     /**

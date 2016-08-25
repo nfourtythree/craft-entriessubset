@@ -1,5 +1,13 @@
 [
     {
+        "version": "0.5.4",
+        "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/0.5.4.zip",
+        "date": "2016-08-25T12:17:00.111Z",
+        "notes": [
+            "Fixing issues with version numbers"
+        ]
+    },
+    {
         "version": "0.5.3",
         "downloadUrl": "https://github.com/nfourtythree/craft-entriessubset/archive/0.5.3.zip",
         "date": "2016-07-06T10:17:00.111Z",
